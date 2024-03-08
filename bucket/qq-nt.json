@@ -6,6 +6,9 @@
         "identifier": "Proprietary",
         "url": "https://ti.qq.com/agreement/index.html"
     },
+    "suggest": {
+        "LiteLoaderQQNT": "LiteLoaderQQNT"
+    },
     "architecture": {
         "64bit": {
             "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.7_240305_x64_01.exe#/dl.7z",
