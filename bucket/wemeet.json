@@ -1,14 +1,14 @@
 {
     "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
     "version": "3.24.3.406",
-    "description": "An efficient and reliable video conferencing service powered by Tencent that is built for collaboration.",
+    "description": "Tencent Meeting provides one-stop audio and video conferencing solutions.",
     "homepage": "https://meeting.tencent.com/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://meeting.tencent.com/declare.html"
     },
-    "url": "https://updatecdn.meeting.qq.com/cos/dc4d3ae9e357a0b348759a6aca324bc2/TencentMeeting_0300000000_3.24.3.406.publish.officialwebsite.exe#/dl.7z",
-    "hash": "md5:dc4d3ae9e357a0b348759a6aca324bc2",
+    "url": "https://updatecdn.meeting.qq.com/cos/d122f552311a19c56e3cf2e6317830cf/TencentMeeting_0300000000_3.24.2.407.publish.officialwebsite.exe#/dl.7z",
+    "hash": "5f80fca641148105c55981e1b13e1a4cb54763d2d151ec95d950216a49295f28",
     "post_install": [
         "Rename-Item \"$dir\\`$_*_\" \"$dir\\$version\"",
         "Remove-Item \"$dir\\$*\" -Recurse -Force -ErrorAction SilentlyContinue",
@@ -22,15 +22,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://meeting.tencent.com/web-service/query-download-info?q=[{%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22}]&nonce=0000000000000000",
-        "regex": "https://(?<url>.+\\.exe).*?\"version\":.*?\"([\\d.]+)\""
+        "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22%7D%5D&nonce=AAAAAAAAAAAAAAAA",
+        "regex": "(?<Commitid>[0-9a-f]+)/TencentMeeting_0300000000_(?<Version>\\d+.\\d+.\\d+.\\d+).publish.officialwebsite.exe"
     },
     "autoupdate": {
-        "url": "https://$matchUrl#/dl.7z",
-        "hash": {
-            "url": "https://meeting.tencent.com/web-service/query-download-info?q=[{%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22}]&nonce=0000000000000000",
-            "mode": "json",
-            "jsonpath": "$.info-list[0].md5"
-        }
+        "url": "https://updatecdn.meeting.qq.com/cos/$matchCommitid/TencentMeeting_0300000000_$matchVersion.publish.officialwebsite.exe#/dl.7z"
     }
 }
