@@ -1,0 +1,334 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\WinSCP.Url]
+@="WinSCP URL"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\WinSCP.Url\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\WinSCP.Url\shell]
+
+[HKEY_CLASSES_ROOT\WinSCP.Url\shell\open]
+
+[HKEY_CLASSES_ROOT\WinSCP.Url\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-SCP]
+@="URL：winscp-SCP协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-SCP\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-SCP\shell]
+
+[HKEY_CLASSES_ROOT\winscp-SCP\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-SCP\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-SFTP]
+@="URL：winscp-SFTP协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-SFTP\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-SFTP\shell]
+
+[HKEY_CLASSES_ROOT\winscp-SFTP\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-SFTP\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-SSH]
+@="URL：winscp-SSH协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-SSH\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-SSH\shell]
+
+[HKEY_CLASSES_ROOT\winscp-SSH\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-SSH\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-DAV]
+@="URL：winscp-DAV协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-DAV\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-DAV\shell]
+
+[HKEY_CLASSES_ROOT\winscp-DAV\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-DAV\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-DAVS]
+@="URL：winscp-DAVS协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-DAVS\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-DAVS\shell]
+
+[HKEY_CLASSES_ROOT\winscp-DAVS\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-DAVS\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-FTP]
+@="URL：winscp-FTP协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-FTP\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-FTP\shell]
+
+[HKEY_CLASSES_ROOT\winscp-FTP\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-FTP\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-FTPES]
+@="URL：winscp-FTPES协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-FTPES\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-FTPES\shell]
+
+[HKEY_CLASSES_ROOT\winscp-FTPES\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-FTPES\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-FTPS]
+@="URL：winscp-FTPS协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-FTPS\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-FTPS\shell]
+
+[HKEY_CLASSES_ROOT\winscp-FTPS\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-FTPS\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-HTTP]
+@="URL：winscp-HTTP协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-HTTP\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-HTTP\shell]
+
+[HKEY_CLASSES_ROOT\winscp-HTTP\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-HTTP\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-HTTPS]
+@="URL：winscp-HTTPS协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-HTTPS\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-HTTPS\shell]
+
+[HKEY_CLASSES_ROOT\winscp-HTTPS\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-HTTPS\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\winscp-S3]
+@="URL：winscp-S3协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\winscp-S3\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\winscp-S3\shell]
+
+[HKEY_CLASSES_ROOT\winscp-S3\shell\open]
+
+[HKEY_CLASSES_ROOT\winscp-S3\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\ftp]
+
+[HKEY_CLASSES_ROOT\ftp\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\ftp\shell]
+
+[HKEY_CLASSES_ROOT\ftp\shell\open]
+
+[HKEY_CLASSES_ROOT\ftp\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\ftpes]
+@="URL：ftpes协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\ftpes\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\ftpes\shell]
+
+[HKEY_CLASSES_ROOT\ftpes\shell\open]
+
+[HKEY_CLASSES_ROOT\ftpes\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\ftps]
+@="URL：ftps协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\ftps\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\ftps\shell]
+
+[HKEY_CLASSES_ROOT\ftps\shell\open]
+
+[HKEY_CLASSES_ROOT\ftps\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\dav]
+@="URL：dav协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\dav\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\dav\shell]
+
+[HKEY_CLASSES_ROOT\dav\shell\open]
+
+[HKEY_CLASSES_ROOT\dav\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\davs]
+@="URL：davs协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\davs\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\davs\shell]
+
+[HKEY_CLASSES_ROOT\davs\shell\open]
+
+[HKEY_CLASSES_ROOT\davs\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\s3]
+@="URL：s3协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\s3\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\s3\shell]
+
+[HKEY_CLASSES_ROOT\s3\shell\open]
+
+[HKEY_CLASSES_ROOT\s3\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\scp]
+@="URL：scp协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\scp\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\scp\shell]
+
+[HKEY_CLASSES_ROOT\scp\shell\open]
+
+[HKEY_CLASSES_ROOT\scp\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\ssh]
+@="URL：ssh协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\ssh\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\ssh\shell]
+
+[HKEY_CLASSES_ROOT\ssh\shell\open]
+
+[HKEY_CLASSES_ROOT\ssh\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
+[HKEY_CLASSES_ROOT\sftp]
+@="URL：sftp协议"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+"BrowserFlags"=dword:00000008
+
+[HKEY_CLASSES_ROOT\sftp\DefaultIcon]
+@="\"$winscp_full_root\\WinSCP.exe\",0"
+
+[HKEY_CLASSES_ROOT\sftp\shell]
+
+[HKEY_CLASSES_ROOT\sftp\shell\open]
+
+[HKEY_CLASSES_ROOT\sftp\shell\open\command]
+@="\"$winscp_full_root\\WinSCP.exe\" /Unsafe \"%1\""
+
