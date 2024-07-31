@@ -37,15 +37,15 @@
     "checkver": {
         "url": "https://api.github.com/repos/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/latest",
         "jsonpath": "$.assets[0].browser_download_url",
-        "regex": "QQNTPatcher-DllHijack_(?<version>[\\d.]+)/dbghelp_x(?<arch>[\\d]+).dll"
+        "regex": "DllHijack_(?<version>[\\d.]+)/dbghelp_x(?<arch>[\\d]+).dll"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/QQNTPatcher-DllHijack_$version/dbghelp_x64.dll"
+                "url": "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_$version/dbghelp_x64.dll"
             },
             "32bit": {
-                "url": "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/QQNTPatcher-DllHijack_$version/dbghelp_x86.dll"
+                "url": "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_$version/dbghelp_x86.dll"
             }
         }
     }
