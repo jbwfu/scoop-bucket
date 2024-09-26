@@ -1,5 +1,5 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Lightweight, simple and open source QQNT plugin loader.",
     "homepage": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT",
     "license": "MIT",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.1/LiteLoaderQQNT.zip",
-            "hash": "affbd02573900d4f5743e33386d41b38adaac6ed9a130d57e7c8c75f8dc68838"
+            "url": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.2/LiteLoaderQQNT.zip",
+            "hash": "a325c592ec53b7469c44f7eea5d27a0984e14d54ccd8d596446d0938bc91d561"
         }
     },
     "env_set": {
