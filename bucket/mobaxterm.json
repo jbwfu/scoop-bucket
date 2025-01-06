@@ -37,7 +37,7 @@
     "persist": [
         "MobaXterm.ini",
         "MobaXterm backup.zip",
-	"Custom.mxtpro"
+        "Custom.mxtpro"
     ],
     "checkver": {
         "url": "https://mobaxterm.mobatek.net/download-home-edition.html",
