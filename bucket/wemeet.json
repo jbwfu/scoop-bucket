@@ -1,14 +1,14 @@
 {
     "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-    "version": "3.43.10.449",
+    "version": "3.43.21.403",
     "description": "Tencent Meeting provides one-stop audio and video conferencing solutions.",
     "homepage": "https://meeting.tencent.com/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://meeting.tencent.com/declare.html"
     },
-    "url": "https://updatecdn.meeting.qq.com/cos/e82b83312a3ccc36caf01d16efd3ce4c/TencentMeeting_0300000000_3.43.10.449.publish.officialwebsite.exe#/dl.7z",
-    "hash": "8b863c08ac26be42a84d0ddd89058eaf803744235640f6c3045bf23468c6d7fe",
+    "url": "https://updatecdn.meeting.qq.com/cos/4f21a96a99b8e83a76815235f0480704/TencentMeeting_0300000000_3.43.21.403.publish.officialwebsite.exe#/dl.7z",
+    "hash": "129ee7d8d37592fa8b5b4542220b92732fa2e21f9bb8aef6d762605cdf2833b9",
     "post_install": [
         "Rename-Item \"$dir\\`$_*_\" \"$dir\\$version\"",
         "Remove-Item \"$dir\\$*\" -Recurse -Force -ErrorAction SilentlyContinue",
