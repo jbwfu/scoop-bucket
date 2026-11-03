@@ -46,12 +46,17 @@
         ]
     ],
     "checkver": {
-        "regex": "PureWriter2-([\\d+\\.]+)-Windows-x64.exe"
+        "url": "https://writer.drakeet.com/desktop2.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://kuromi.drakeet.cn/PureWriter2-$version-Windows-x64.exe#/purewriter.exe"
+                "url": "https://kuromi.drakeet.cn/PureWriter2-$version-Windows-x64.exe#/purewriter.exe",
+                "hash": {
+                    "url": "https://writer.drakeet.com/desktop2.json",
+                    "jsonpath": "$.files.windows-x64.sha256"
+                }
             }
         }
     }
