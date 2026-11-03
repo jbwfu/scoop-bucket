@@ -26,18 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-x64-portable.exe#/Cherry-Studio.exe",
-                "hash": {
-                    "url": "$baseurl/latest.yml",
-                    "regex": "url: Cherry-Studio-$version-x64-portable\\.exe\\s+sha512: $base64"
-                }
+                "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-win-x64-portable.exe#/Cherry-Studio.exe"
             },
             "arm64": {
-                "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-arm64-portable.exe#/Cherry-Studio.exe",
-                "hash": {
-                    "url": "$baseurl/latest.yml",
-                    "regex": "url: Cherry-Studio-$version-arm64-portable\\.exe\\s+sha512: $base64"
-                }
+                "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-win-arm64-portable.exe#/Cherry-Studio.exe"
             }
         }
     }
