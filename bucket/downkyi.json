@@ -1,16 +1,16 @@
 {
-    "version": "1.0.24",
+    "version": "1.8.2",
     "description": "哔哩下载姬(跨平台版)downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。",
-    "homepage": "https://github.com/yaobiao131/downkyicore",
+    "homepage": "https://github.com/crazysmile-PhD/downkyicore",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yaobiao131/downkyicore/releases/download/v1.0.24/DownKyi-1.0.24-1.win-x64.zip",
-            "hash": "262f6a63d2f20d9f71174698e8dd451fb2d5a8157242f9cbc968a757eadf5574"
+            "url": "https://github.com/crazysmile-PhD/downkyicore/releases/download/v1.8.2/DownKyi-1.8.2-1.win-x64.zip",
+            "hash": "1f617f92b508f28506f6b21fc59faad081d644df3dedc53a9e1fdc4bfd2f8f41"
         },
         "32bit": {
-            "url": "https://github.com/yaobiao131/downkyicore/releases/download/v1.0.24/DownKyi-1.0.24-1.win-x86.zip",
-            "hash": "167d0fff026207a595bb14159fdd47d64c2dbf73a93c20a9f0013645c05ee691"
+            "url": "https://github.com/crazysmile-PhD/downkyicore/releases/download/v1.8.2/DownKyi-1.8.2-1.win-x86.zip",
+            "hash": "b9d316c364a8ec60a9d4e2e463980c8f2938e8eaa1382caf70037875215003d2"
         }
     },
     "shortcuts": [
@@ -26,16 +26,15 @@
         "Storage"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/yaobiao131/downkyicore/releases/latest",
-        "regex": "download/v([\\d.]+)"
+        "github": "https://github.com/crazysmile-PhD/downkyicore"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/yaobiao131/downkyicore/releases/download/v$version/DownKyi-$version-1.win-x64.zip"
+                "url": "https://github.com/crazysmile-PhD/downkyicore/releases/download/v$version/DownKyi-$version-1.win-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/yaobiao131/downkyicore/releases/download/v$version/DownKyi-$version-1.win-x86.zip"
+                "url": "https://github.com/crazysmile-PhD/downkyicore/releases/download/v$version/DownKyi-$version-1.win-x86.zip"
             }
         }
     }
